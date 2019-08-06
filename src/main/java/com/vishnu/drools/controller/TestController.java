@@ -1,18 +1,15 @@
-package com.secbro.drools.controller;
+package com.vishnu.drools.controller;
 
-import com.secbro.drools.component.ReloadDroolsRules;
-import com.secbro.drools.model.fact.AddressCheckResult;
-import com.secbro.drools.model.Address;
-import com.secbro.drools.utils.KieUtils;
+import com.vishnu.drools.component.ReloadDroolsRules;
+import com.vishnu.drools.model.fact.AddressCheckResult;
+import com.vishnu.drools.model.Address;
+import com.vishnu.drools.utils.KieUtils;
 import org.kie.api.runtime.KieSession;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 import java.io.IOException;
 
 

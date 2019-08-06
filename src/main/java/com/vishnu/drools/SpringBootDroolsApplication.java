@@ -1,4 +1,4 @@
-package com.secbro.drools;
+package com.vishnu.drools;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

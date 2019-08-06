@@ -1,4 +1,4 @@
-package com.secbro.drools.model;
+package com.vishnu.drools.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

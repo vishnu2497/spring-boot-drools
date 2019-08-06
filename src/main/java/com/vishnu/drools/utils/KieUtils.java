@@ -1,4 +1,4 @@
-package com.secbro.drools.utils;
+package com.vishnu.drools.utils;
 
 import org.kie.api.runtime.KieContainer;
 

@@ -1,6 +1,6 @@
-package com.secbro.drools.config;
+package com.vishnu.drools.config;
 
-import com.secbro.drools.utils.KieUtils;
+import com.vishnu.drools.utils.KieUtils;
 import org.kie.api.KieBase;
 import org.kie.api.KieServices;
 import org.kie.api.builder.*;
@@ -19,7 +19,7 @@ import java.io.IOException;
 
 @Configuration
 public class DroolsAutoConfiguration {
-    
+
     private static final String RULES_PATH = "rules/";
     
     @Bean
