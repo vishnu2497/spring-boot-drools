@@ -1,0 +1,33 @@
+package rules;
+rule "Postcode should be filled with exactly 5 numbers"
+
+    when
+    then
+		System.out.println("logs in rule ：check success!");
+end
+
+rule "test1"
+when
+eval(true)
+then
+System.out.println("Hi  this is from 85t9emp");
+end
+
+rule "test2"
+when
+eval(true)
+then
+System.out.println("Hi  this is from 85t9emp");
+end
+
+rule "test3"
+when
+eval(true)
+then
+System.out.println("Hi  this is from the test 3 method");
+end
+
+
+
+
+
